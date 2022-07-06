@@ -1,0 +1,69 @@
+@import "./palette";
+@import "./reset";
+@import "./shared";
+
+@include shared-grid;
+.aside-div{
+    background-color: $aside-color;
+    position: relative;
+    :nth-child(1){
+        @include text(800);
+        position: absolute;
+        left: 8.5%;
+        top: 24.5%;
+        right: 2.6%;
+        
+    }
+
+    :nth-child(2){
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        color: #212529;
+        position: absolute;
+        top: 28.3%;
+        left: 60.8%;
+    }
+
+    :nth-child(3){
+        @include text(900);
+        position: absolute;
+        left: 8.5%;
+        top: 36.1%;
+       
+    }
+    button{
+        width: 191px;
+        height: 53px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        background-color: #212529;
+        border: none;
+        border-radius: 8px;
+        color: #FFFFFF;
+        position: absolute;
+        // display: flex;
+        padding: 13px 24px;
+        left: 8.5%;
+        top: 55.6%;
+        gap: 10px;
+        // position: relative;
+        // img{ 
+        //     position: absolute;
+        //     left: 80%;
+        // }
+    }
+    button:hover{
+        border: 2px solid #c2a5f9cc;
+        cursor: pointer;
+    }
+
+}
+
+
+

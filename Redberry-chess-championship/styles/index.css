@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body, html {
+  line-height: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  display: grid;
+  width: 1920px;
+  height: 1080px;
+  grid-template-columns: 48% 52%;
+  grid-template-rows: 7% 93%;
+}
+.container .header-div {
+  grid-area: 1/1/2/2;
+  position: relative;
+  background-color: #7025FB;
+}
+.container .header-div :nth-child(1) {
+  position: absolute;
+  left: 6.5%;
+  top: 36.2%;
+}
+.container .header-div :nth-child(2) {
+  position: absolute;
+  left: 9.7%;
+  top: 35.9%;
+}
+.container .img-div {
+  grid-area: 2/1/3/2;
+  overflow-y: hidden;
+}
+.container .img-div img {
+  width: 100%;
+  height: 100%;
+}
+.container .aside-div {
+  grid-area: 1/2/3/3;
+}
+
+.aside-div {
+  background-color: #FD5334;
+  position: relative;
+}
+.aside-div :nth-child(1) {
+  font-family: "Nunito";
+  font-style: normal;
+  line-height: 109px;
+  font-weight: 800;
+  font-size: 80px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 8.5%;
+  top: 24.5%;
+  right: 2.6%;
+}
+.aside-div :nth-child(2) {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #212529;
+  position: absolute;
+  top: 28.3%;
+  left: 60.8%;
+}
+.aside-div :nth-child(3) {
+  font-family: "Nunito";
+  font-style: normal;
+  line-height: 109px;
+  font-weight: 900;
+  font-size: 80px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 8.5%;
+  top: 36.1%;
+}
+.aside-div button {
+  width: 191px;
+  height: 53px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  background-color: #212529;
+  border: none;
+  border-radius: 8px;
+  color: #FFFFFF;
+  position: absolute;
+  padding: 13px 24px;
+  left: 8.5%;
+  top: 55.6%;
+  gap: 10px;
+}
+.aside-div button:hover {
+  border: 2px solid rgba(194, 165, 249, 0.8);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */
