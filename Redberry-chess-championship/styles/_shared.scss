@@ -60,3 +60,41 @@
     font-size: 80px;
     color: #FFFFFF;
 }
+
+@mixin second-step{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    gap: 10px;
+    border: 1px solid #E5E6E8;
+    position: relative;
+}
+
+@mixin span-dec{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin span-desc{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+@mixin buttonSpan{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
